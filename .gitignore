@@ -1,0 +1,123 @@
+########################################
+# Node.js / General JS
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+########################################
+# Build / Output
+########################################
+dist/
+build/
+out/
+.cache/
+.next/
+.nuxt/
+.tmp/
+temp/
+tmp/
+
+########################################
+# Hardhat / Blockchain / dApp
+########################################
+artifacts/
+cache/
+typechain/
+coverage/
+coverage.json
+.env.local
+.env.test
+.env.production
+.env.development
+.env.*.local
+
+# Ganache / Chain data
+.chain/
+*.db
+*.log
+*.pid
+*.pid.lock
+
+# Hardhat specific
+hardhat-network-*
+deployments/
+deployments.json
+
+########################################
+# Testing / Coverage
+########################################
+coverage/
+*.lcov
+nyc_output/
+jest-html-reporters-*
+test-results/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-report.xml
+
+########################################
+# OS Generated Files
+########################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.Spotlight-V100
+*.Trashes
+
+########################################
+# IDE / Editor files
+########################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.history/
+*.orig
+
+########################################
+# Logs
+########################################
+logs/
+*.log
+*.log.*
+*.out
+*.err
+lerna-debug.log
+
+########################################
+# TypeScript
+########################################
+*.tsbuildinfo
+
+########################################
+# Miscellaneous
+########################################
+*.tgz
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+*.lock
+*.pid
+*.seed
+*.orig
+*.rej
+
+# Coverage reports
+lcov-report/
+
+# Debugging
+*.trace
+*.prof
+*.dmp

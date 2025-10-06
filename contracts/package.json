@@ -1,0 +1,39 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+   "scripts": {
+    "compile": "hardhat compile",
+    "deploy:ethereum": "hardhat run scripts/deploy.ts --network ethereum",
+    "deploy:polygon": "hardhat run scripts/deploy.ts --network polygon",
+    "deploy:arbitrum": "hardhat run scripts/deploy.ts --network arbitrum",
+    "deploy:optimism": "hardhat run scripts/deploy.ts --network optimism",
+    "deploy:mumbai": "hardhat run scripts/deploy.ts --network mumbai",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "test": "hardhat test",
+    "verify:ethereum": "hardhat verify --network ethereum",
+    "verify:polygon": "hardhat verify --network polygon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^3.0.2",
+    "@types/node": "^22.18.8",
+    "dotenv": "^17.2.3",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0",
+    "viem": "^2.37.12",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "dotenv": "^16.3.1"
+  }
+}
